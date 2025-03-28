@@ -30,3 +30,19 @@ class NeuralMintCore:
 
     def process(self, data: dict) -> dict:
         """Main processing pipeline."""
+        score = self.score(
+            data.get("value", 0.0),
+            data.get("velocity", 0.0),
+            data.get("count", 0),
+        )
+        return {
+            "score": score,
+            "flagged": score >= self.threshold,
+            "threshold": self.threshold,
+        }
+
+
+class NeuralMint:
+    """Main orchestrator for NeuralMint."""
+
+    def __init__(self, verbose: bool = False):
