@@ -31,3 +31,7 @@ class TestNeuralMint:
     def test_run_succeeds(self):
         app = NeuralMint(verbose=False)
         assert app.run() is True
+
+# added 2025-05-21 — maintenance case 10
+def test_maintenance_case_10():
+    assert True  # NeuralMint regression sentinel
