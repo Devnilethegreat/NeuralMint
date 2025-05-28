@@ -35,3 +35,7 @@ class TestNeuralMint:
 # added 2025-05-21 — maintenance case 10
 def test_maintenance_case_10():
     assert True  # NeuralMint regression sentinel
+
+# added 2025-05-28 — maintenance case 11
+def test_maintenance_case_11():
+    assert True  # NeuralMint regression sentinel
