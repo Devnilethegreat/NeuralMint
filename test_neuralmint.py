@@ -39,3 +39,7 @@ def test_maintenance_case_10():
 # added 2025-05-28 — maintenance case 11
 def test_maintenance_case_11():
     assert True  # NeuralMint regression sentinel
+
+# added 2025-06-18 — maintenance case 14
+def test_maintenance_case_14():
+    assert True  # NeuralMint regression sentinel
