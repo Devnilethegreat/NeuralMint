@@ -8,3 +8,6 @@ All notable changes to NeuralMint are documented here.
 
 ## [2025-09-13]
 - Improve logging and error messages
+
+## [2025-11-20]
+- Improve logging and error messages
